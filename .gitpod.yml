@@ -2,4 +2,4 @@ image: gitpod/workspace-node
 
 tasks:
     - init: ${GITPOD_REPO_ROOT}/init.sh
-      command: echo 'some task'
+      command: docker-compose up
