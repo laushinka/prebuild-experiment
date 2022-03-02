@@ -10,7 +10,7 @@ chmod +x $DOCKER_CONFIG/cli-plugins/docker-compose
 echo "done"
 
 docker-compose pull
-docker-compose up
+docker-compose up --wait
 docker-compose down
 
 echo "I got here again, again more, and again"
