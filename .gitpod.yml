@@ -1,1 +1,1 @@
-image: docker.cloudsmith.io/i-am-unique/some-thing/busybox:latest
+image: docker.cloudsmith.io/i-am-unique/some-thing/my-test-image:latest
