@@ -1,5 +1,5 @@
 #!/bin/bash -e
-for i in {81..120}
+for i in {2..21}
 do
     git checkout -b kyleb/"$i"-prebuild
     echo "echo another test $i" >> init.sh
