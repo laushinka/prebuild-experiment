@@ -12,4 +12,7 @@ echo "done"
 # while sleep 1;do tput sc;tput cup 0 $(($(tput cols)-38));echo `date` ${SECONDS};tput rc;done
 sleep 300
 
+# Add a sizable file to backup
+dd if=/dev/zero of=upload_test bs=1M count=1000
+
 echo "I got here again, again more, and again"
